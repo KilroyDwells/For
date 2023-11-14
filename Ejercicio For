@@ -1,0 +1,59 @@
+x = 10
+if x > 0 :
+    print ("x es positivo")
+else:
+    print("x es negativo")
+
+x= 5
+y= 12
+
+if x < y:
+    print("x es menor que y")
+elif x > y :
+    print("x es mayor que y")
+else:
+    print('"x" y "y" son iguales')
+
+letra = "c"
+
+if letra == "a":
+    print("Mal resultado")
+elif letra == "b":
+    print("Buen resultado")
+elif letra == "c":
+    print("cerca, pero no es correcto")
+
+if x == y:
+    print("x y y son iguales")
+else:
+    if x < y:
+        print("x es menor que y")
+    else:
+        print("x es mayor que y")
+
+x = 7
+if 0 < x and x < 10:
+        print("x es un numero positivo de un solo digito")
+
+for x in range( 0, 3):
+    print("Estamos en la iteracion "  + str(x))
+
+for j in range(0, 10, 2):
+    print("estamos en la iteracion " + str(j))
+
+oracion = "Pablo entiende muy bien python"
+frases= oracion.split() #convierte a una lista cada palabra
+print("La oración analizada es: ", oracion, "./n")
+
+for palabra in range(len(frases)):
+    print("Palabra: {0}, en la frase su posicion es: {1}".format(frases[palabra], palabra))
+
+fruta = "mango"
+letra = fruta[2]
+print(letra)
+
+s = "Monty Python"
+print(s[0:5])
+
+print(s[6:12])
+
